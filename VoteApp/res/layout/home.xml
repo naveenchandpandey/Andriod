@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <Button
+        android:id="@+id/voteh"
+        android:onClick="votehh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+ 
+        android:text="Vote Now" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+    
+        android:text="User Details"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nameh"
+        android:layout_alignBottom="@+id/nameh"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="30dp"
+        
+        android:text="Email Id"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ageh"
+        android:layout_alignBottom="@+id/ageh"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginTop="10dp"
+        
+        android:text="Age"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/statush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignRight="@+id/uidh"
+        
+        android:gravity="end"
+        android:layout_marginTop="10dp"
+        android:text="sta"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/addressh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/addtest"
+        android:layout_alignBottom="@+id/addtest"
+        android:layout_alignRight="@+id/uidh"
+        
+        android:gravity="end"
+        android:layout_marginTop="10dp"
+        android:text="add"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/assemblyh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/assemtest"
+        android:layout_alignBottom="@+id/assemtest"
+        android:layout_alignRight="@+id/uidh"
+        
+        android:gravity="end"
+        android:layout_marginTop="10dp"
+        android:text="assem"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/votehhh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/votetest"
+        android:layout_alignBottom="@+id/votetest"
+        android:layout_alignRight="@+id/uidh"
+        
+        android:gravity="end"
+        android:layout_marginTop="10dp"
+        android:text="vote"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="10dp"
+        
+        android:text="gender"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/uidh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/genderh"
+        android:layout_below="@+id/genderh"
+        android:layout_marginTop="10dp"
+        
+        android:text="uid"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/uidh"
+        android:layout_alignBottom="@+id/uidh"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginTop="10dp"
+        
+        android:text="unique id"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="10dp"
+        
+        android:text="Status"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/addtest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="10dp"
+        
+        android:text="Address"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/assemtest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addtest"
+        android:layout_below="@+id/addtest"
+        android:layout_marginTop="10dp"
+        
+        android:text="Constituency"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/votetest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/assemtest"
+        android:layout_below="@+id/assemtest"
+        android:layout_marginTop="10dp"
+        
+        android:text="Already Voted"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/genderh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        
+        android:text="gender"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/ageh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/genderh"
+        android:layout_below="@+id/nameh"
+        
+        android:text="age"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/nameh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ageh"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="34dp"
+        
+        android:text="name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/congressv"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignBottom="@+id/ncpv"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/congressd"
+        android:text="" />
+
+    <Button
+        android:id="@+id/bjpv"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignBaseline="@+id/congressv"
+        android:layout_alignBottom="@+id/congressv"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/bjpd"
+        android:text="" />
+
+    <Button
+        android:id="@+id/ncpv"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="123dp"
+        android:background="@drawable/ncpd"
+        android:text="" />
+
+    <Button
+        android:id="@+id/bspv"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignBaseline="@+id/cpmv"
+        android:layout_alignBottom="@+id/cpmv"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bspd"
+        android:text="" />
+
+    <Button
+        android:id="@+id/spv"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignBaseline="@+id/bspv"
+        android:layout_alignBottom="@+id/bspv"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/spd"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Options"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/cpmv"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/congressv"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/cpmd" />
+
+</RelativeLayout>
